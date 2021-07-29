@@ -1,0 +1,69 @@
+// Se cambia el color primary
+$primary: #ffcc00;
+
+// Bootstrap
+// Podemos importar TODAS las clases de Bootstrap de esta forma con SCSS
+@import "../bootstrap/bootstrap.scss"; // Se debe descargar los archivos de producción de Bootstrap
+
+body{
+	font-family: 'Domine', sans-serif;
+	font-weight: 300;
+	margin-top: 40px;
+}
+
+footer{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+
+.nav-footer{
+		.item-nav{
+		a:hover{
+		color: black;
+	}
+	}
+}
+
+header{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	img{
+		background-position: center;
+		background-size: cover;
+	}
+	.item-nav{
+		a:hover{
+		color: black;
+	}
+	}
+	.menu-cat{
+		a:hover{
+		color: $primary;
+		background: none;
+	}
+	}
+	
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.barra-nav{
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+	.item-nav{
+		a:hover{
+		color: whitesmoke;
+		background-color: $primary;
+	}
+}
+}
+
+.title-mercado{
+	font-family: 'Fredoka One', sans-serif;
+	color: $dark;
+}
+
+
